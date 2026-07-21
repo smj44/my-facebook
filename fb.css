@@ -1,0 +1,226 @@
+header{
+    background-color: #3b5998;
+    width: 100%;
+    height: 85px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.main-body{
+    background-color: #d8f4fb;
+    width: 100%;
+    height: 611px;
+}
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+    
+}
+.login{
+    width: 50%;
+    float: left;
+}
+.logo-text{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 170px;
+    cursor: pointer;
+}
+.logo-text  :hover{
+    text-decoration: underline;
+}
+
+.login-label{
+    color: #fff;
+    font-size: 11px;
+}
+
+.login-controls{
+    color: aliceblue; 
+}
+.login-control {
+    margin-left: 115px;
+
+}
+.login{
+    padding-top: 10px;
+}
+
+.forgotten {
+    color: #9cb4d8;
+    font-size: 11px;
+    text-decoration: none;
+    
+}
+
+.sub-btn{
+    background-color: #4267b2;
+    color: #fff;
+    height: 20px;
+    border-color: #29487d;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.a{
+    border: 1px;
+    border-radius: 5px;
+}
+.sub-btn:hover{
+    background: rgb(6, 48, 139);
+
+}
+
+
+/**left section**/
+
+.left-section{
+    width: 39%;
+    float: left;
+
+}
+.image{
+    width: 477px;
+    height: 448px;
+    float: left;
+    
+    display: flex;
+}
+
+
+/**right section**/
+
+.right-section{
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.right-section h1, .right-section p {
+    margin: 0;
+}
+.right-section h1 {
+    padding-top: 10px;
+    font-size: 42px;
+}
+.para{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 120px;
+    margin-top: 48px;
+}
+.box{
+    height: 450px;
+}
+.quick {
+    font-size: 22px;
+    padding-bottom: 22px;
+    padding-left: 7px;
+}
+.t1 input {
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 35px;
+    background-color: white;
+    margin-top: 5px;
+    border-color: #dddddd;
+    border: 1px solid darkgray;
+}
+.mob {
+   min-width: 53%; 
+}
+
+.bd{
+    font-size: 22px;
+    font-weight: bold;
+    color: dimgray;
+}
+.t2{
+    margin-top: 10px;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.dmy{
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 27px;
+    background-color: #e1e1e1;
+}    
+.check{
+    box-sizing: border-box;
+    height: 15px;
+    width: 15px;
+}
+.rad{
+    height: 40px;
+}
+.lor{
+    color: #707173;
+}
+.lor a{
+    text-decoration: none;
+        color: darkslateblue;
+}
+.signup{
+    box-sizing: border-box;
+    background-color: #308f40;
+    height: 40px;
+    width: 202px;
+    border-radius: 10px;
+    border: 2px solid #8f8f8f;
+    font-size: 22px;
+    color: #f5e1e1;
+    cursor: pointer;
+
+}
+.signup:hover{
+    background-color: green;
+}
+.d{
+    padding-top: 25px;
+}
+.band a{
+    text-decoration: none;
+    color: midnightblue;
+}
+.band{
+    font-weight: bold;
+    padding-top: 20px;
+    color: dimgray;
+}
+.footer{
+    background-color: #fff;
+    width: 100%;
+    height: 108px;
+
+}
+.uk{
+    
+    color: dimgray;
+    margin-top: 53px;
+    
+}
+.uk a{
+    text-decoration: none;
+    color: midnightblue;
+    
+}
+hr {
+    width: 1030px;
+}
+.ku{
+    color: midnightblue;
+    text-align: center;
+}
